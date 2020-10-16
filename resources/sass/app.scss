@@ -1,0 +1,43 @@
+
+
+@import "blog-page";
+
+
+body{
+  font-family: Poppins !important;
+}
+
+input[type=text], input[type=email], input[type=password], input[type=date]{
+  border: none;
+  border-radius: 0;
+  background-color: #e6e6e6 !important;
+}
+
+textarea{
+  border: none;
+  border-radius: 0;
+  background-color: #e6e6e6 !important;
+  height: 100px;
+}
+
+.job-posts{
+  height: auto;
+  width: 100%;
+  padding: 10px;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid gainsboro;
+  background-color: white;
+
+  .count{
+    font-size: 100px;
+    font-weight: bold;
+  }
+
+  .heading{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+}

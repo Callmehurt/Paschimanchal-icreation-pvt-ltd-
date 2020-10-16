@@ -1,0 +1,114 @@
+.form-wrapper {
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.form-wrapper .login-form-header {
+  font-size: 40px;
+  font-weight: bold;
+  color: #403866;
+}
+
+.form-wrapper .form-section {
+  margin-top: 2.2rem;
+}
+
+.form-wrapper .form-section form input[type=email] {
+  height: 60px;
+  border: none;
+  border-radius: 0;
+  background: #e6e6e6;
+  font-size: 16px;
+}
+
+.form-wrapper .form-section form input[type=password] {
+  height: 60px;
+  border: none;
+  border-radius: 0;
+  background: #e6e6e6;
+  font-size: 16px;
+}
+
+.form-wrapper .form-section form button {
+  background-color: #827ffe;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  text-align: center;
+  height: 60px;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.form-wrapper .form-section form button:hover {
+  background-color: #403866;
+}
+
+.register-form-wrapper {
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.register-form-wrapper .register-form-header {
+  font-size: 40px;
+  font-weight: bold;
+  color: #403866;
+}
+
+.register-form-wrapper .register-form-section {
+  margin-top: 2rem;
+}
+
+.register-form-wrapper .register-form-section form input[type=email] {
+  height: 60px;
+  border: none;
+  border-radius: 0;
+  background: #e6e6e6;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.register-form-wrapper .register-form-section form input[type=text] {
+  height: 60px;
+  border: none;
+  border-radius: 0;
+  background: #e6e6e6;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.register-form-wrapper .register-form-section form input[type=password] {
+  height: 60px;
+  border: none;
+  border-radius: 0;
+  background: #e6e6e6;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.register-form-wrapper .register-form-section form button {
+  background-color: #827ffe;
+  width: 12rem;
+  border: none;
+  border-radius: 0;
+  text-align: center;
+  height: 60px;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.register-form-wrapper .register-form-section form button:hover {
+  background-color: #403866;
+}
+
+body {
+  font-family: Poppins !important;
+}
+

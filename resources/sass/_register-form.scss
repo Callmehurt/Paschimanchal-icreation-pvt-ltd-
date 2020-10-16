@@ -1,0 +1,62 @@
+.register-form-wrapper{
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+
+  .register-form-header{
+    font-size: 40px;
+    font-weight: bold;
+    color: #403866;
+  }
+
+  .register-form-section{
+    margin-top: 2rem;
+
+    form{
+      input[type=email]{
+        height: 60px;
+        border: none;
+        border-radius: 0;
+        background: #e6e6e6;
+        font-size: 16px;
+        margin-top: 10px;
+      }
+
+      input[type=text]{
+        height: 60px;
+        border: none;
+        border-radius: 0;
+        background: #e6e6e6;
+        font-size: 16px;
+        margin-top: 10px;
+      }
+
+      input[type=password]{
+        height: 60px;
+        border: none;
+        border-radius: 0;
+        background: #e6e6e6;
+        font-size: 16px;
+        margin-top: 10px;
+      }
+
+      button{
+        background-color: #827ffe;
+        width: 12rem;
+        border: none;
+        border-radius: 0;
+        text-align: center;
+        height: 60px;
+        font-size: 18px;
+        color: white;
+        font-weight: 600;
+        margin-top: 10px;
+
+        &:hover{
+          background-color: #403866;
+        }
+      }
+    }
+  }
+}
